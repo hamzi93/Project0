@@ -17,6 +17,7 @@ body{
     font-size: 10px;
     height: 20px;
     margin-top: 5px;
+    font-weight: lighter;
     
 
 }
@@ -26,17 +27,60 @@ body{
 }
 
 .links a:last-child{
-    margin-right: 80px;
+    margin-right: 75px;
 }
 
 .links a:hover{
     text-decoration: underline;
 }
 
-
+#googleLogo{
+    display: flex;
+    height: 290px;
+    justify-content: center;
+    align-items: flex-end;
     
-
-    
-
     
 }
+
+#googleSearchLogo{
+    width: 272px;
+    height: 92px;
+}
+
+.googleSearch{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    
+}
+
+form{
+    
+}
+
+.window{
+   
+    
+}
+
+#text{
+    width: 580px;
+    height: 25px;
+    
+}
+
+.buttons{
+    
+    margin-top: 20px;
+    
+    width: fit-content;
+    margin-left: 50%;
+    transform: translate(-50%);
+    flex-grow: 0;
+}
+    
+
+    
+
+    
