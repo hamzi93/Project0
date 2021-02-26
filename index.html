@@ -5,30 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/screen.css">
+        <link rel="icon" href="assets/images/icon.png">
         <title>Search</title>
     </head>
     <body>
         
         <div id="container">
-            <div class="links">
+            <div class="pages">
                 <a href="googleImg.html"> Images </a>
                 <a href="googleAdv.html"> Advanced </a>
             </div>    
         </div> 
 
         <div id="googleLogo">
-            <img id="googleSearchLogo" src="assets/images/googlelogo.png" class="img-fluid" alt="Google Logo">
+            <img id="googleSearchLogo" src="assets/images/googlelogo.png" alt="Google Logo">
         </div>
         
         
-        <div class="googleSearch">
-            <form action="https://google.com/search">
-                <div class="window">    
+        
+        <form action="https://google.com/search">
+                <div class="window">
+                    <img class="search-icon" src="assets/images/search-black.svg" alt="search icon">   
                     <input id="text" type="text" name="q">
+                    <img class="mic-icon" src="assets/images/mic-black.svg" alt="mic icon">
                 </div>    
-                <div class="buttons">    
-                    <input type="submit" value="Google Search">
-                    <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                <div class="buttons">  
+                    <input class="button" type="submit" value="Google Search">
+                    <input class="button" type="submit" value="I'm Feeling Lucky" name="btnI">
                 </div>    
             </form>
         </div>
