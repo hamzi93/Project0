@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/screen.css">
-    <link rel="icon" href="assets/images/icon.png">
-    <title>Google Images</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/screen.css">
+        <link rel="stylesheet" href="assets/css/google-I.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="icon" href="assets/images/icon.png">
+        <title>Google Images</title>
+    </head>
+    <body>
+        <section class="section-1">
+            <div class="pages">
+                <a href="index.html"> Search </a>
+                <a href="googleAdv.html"> Advanced </a>
+            </div>
+
+            <div class="google-I">
+                <img id="I-Logo" src="assets/images/googlelogo.png" alt="Google Logo">
+                <h4>images</h4>
+            </div>
+                
+            <form action="https://google.com/search">
+                <div class="I-searchBar">                        
+                    <img id="I-search" src="assets/images/search-black.svg" alt="search icon">
+                    <input id="I-text" type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch">
+                    <span class="material-icons cam">photo_camera</span>
+                    <span class="material-icons mic">mic</span>
+                    <span class="material-icons searchBlue">search</span>
+                </div>  
+            </form>
+        </section>
+
+        <footer>
+            <div class="footerDiv">
+                <h4>Austria</h4>
     
-    <div class="pages">
-        <a href="index.html"> Search </a>
-        <a href="googleAdv.html"> Advanced </a>
-    </div>
-
-    <div class="images">    
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input name="tbm" value="isch" type="hidden">
-            <input type="submit" value="Images">
-        </form>
-    </div>
-
-</body>
+                <div class="links">
+                    <div class="link-1">
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                        <a href="#">About</a>
+                        <a href="#">How Search works</a>
+                    </div>
+                    <div class="link-2">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
 </html>

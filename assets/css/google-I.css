@@ -1,0 +1,78 @@
+.google-I{
+    display: flex;
+    height: 230px;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.google-I h4{
+    color: #4285F4;
+    position: relative;
+    right: 57px;
+}
+
+#I-Logo{
+    width: 272px;
+    height: 92px;
+    margin-left: 52px;
+}
+
+.I-searchBar{
+    display: flex;
+    height: 20px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 25px;
+    width: 510px;
+    margin-top: 1px;
+    
+}
+
+#I-text{
+    font-size: 16px;
+    width: 100%;
+    height: 20px;
+    border: none;
+    outline: none;
+    margin-left: 12px;
+
+    
+}
+
+.I-searchBar:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+#I-search{
+    opacity: .35;
+    margin-left: 2px;
+    width: 27.4px;
+    margin-bottom: 2px;
+}
+
+.material-icons.cam{
+    color: #757575;
+    margin-right: 16px;
+}
+
+.material-icons.mic{
+    margin-right: 20px;
+}
+
+
+
+.material-icons.searchBlue{ 
+    color: #4285F4; 
+    margin-right: 4px;
+}
