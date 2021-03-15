@@ -51,7 +51,6 @@ html, body{
 #S-Logo{
     width: 272px;
     height: 92px;
-    
 }
 
 form{
@@ -158,6 +157,7 @@ footer{
     display: flex;
     align-items: flex-end;
     margin-top: 20px;
+    
 }
 
 .footerDiv{
@@ -201,8 +201,27 @@ footer a:hover{
 }
 
 @media (max-width: 600px) {
-    .searchBar{
+    .S-searchBar{
         width: 95%;
     }
 }
+
+@media (max-width: 670px) {
+   .links{
+       display: grid;
+    }
+
+    .link-1{
+        justify-self: center;
+    }
+
+    .link-2{
+        justify-self: center;
+    }
+}
+
+
+
+
+
 
