@@ -53,7 +53,7 @@ html, body{
     height: 92px;
 }
 
-form{
+.mainForm{
     display: flex;
     height: 120px;
     padding: 20px;
@@ -83,8 +83,6 @@ form{
     border: none;
     outline: none;
     margin-left: 12px;
-
-    
 }
 
 .S-searchBar:hover{
@@ -157,7 +155,6 @@ footer{
     display: flex;
     align-items: flex-end;
     margin-top: 20px;
-    
 }
 
 .footerDiv{
@@ -220,6 +217,11 @@ footer a:hover{
     }
 }
 
+@media (max-height: 650px){
+    .google-S{
+        height:fit-content;
+    }
+}
 
 
 

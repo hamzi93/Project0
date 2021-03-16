@@ -1,28 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/screen.css">
-    <link rel="icon" href="assets/images/icon.png">
-    <title>Google Advanced</title>
-</head>
-<body>
-    <div class="pages">
-        <a href="index.html"> Search </a>
-        <a href="googleImg.html"> Images </a>
-    </div>
+    <head>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/screen.css">
+        <link rel="stylesheet" href="assets/css/google-A.css">
+        <link rel="icon" href="assets/images/icon.png">
+        <title>Google Advanced</title>
+    </head>
+    <body>
+        <section>
+            <div class="pages">
+                <a href="index.html"> Search </a>
+                <a href="googleImg.html"> Images </a>
+            </div>
 
-    <form action="https://www.google.com/search">
-        <input class="advancedWörter" type="text" value autofocus="autofocus" name="as_q">
-        <input type="submit" value="advanced">
-        <input type="text" name="as_epq">
-        <input type="submit" value="advanced2">
-        <input type="text" name="as_oq">
-        <input type="submit" value="advanced3">
-        <input type="text" name="as_eq">
-        <input type="submit" value="advanced4">
+            <div class="google-A">
+                <img id="A-Logo" src="assets/images/googlelogo.png" alt="Google Logo">
+            </div>
 
-    </form>
+            <div class="heading">
+                <h4>Advanced Search</h4>
+            </div>
 
-</body>
+            <div class="info">
+                <span>Find pages with...</span>
+                <span>To do this in the search box.</span>
+            </div>
+
+            <form class="advForms" action="https://www.google.com/search">
+                <div class="a-text">
+                    <small>all these words:</small>
+                    <small>this exact word or phrase:</small>
+                    <small>any of these words:</small>
+                    <small>none of these words:</small>
+                </div>
+                <div class="advForm">    
+                    <input type="text" name="as_q">
+                    <input type="text" name="as_epq">
+                    <input type="text" name="as_oq">
+                    <input type="text" name="as_eq">
+                </div>
+                <div class="b-text">
+                    <small>Type the important words: tri-colour rat terrier</small>
+                    <small>Put exact words in quotes: "rat terrier"</small>
+                    <small>Type OR between all the words you want: miniature OR standard</small>
+                    <small>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</small>
+                </div>  
+                <div class="btns-A"> 
+                    <input class="btn-A" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footerDiv">
+                <h4>Austria</h4>
+
+                <div class="adv-links">
+                    <div class="adv-link">
+                        <a href="#">Help</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

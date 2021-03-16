@@ -1,0 +1,163 @@
+.pages{
+    background: #F1F1F1;
+}
+
+.google-A{
+    width: fit-content;
+    height: 58px;
+    position: absolute;
+    left: 14.2px;
+    top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+#A-Logo{
+    height: 30.9px;
+}
+
+.heading{
+    display: grid;
+    height: 73px;
+    align-items: center;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    
+}
+
+.heading h4{
+    margin-left: 45px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #D93025;
+}
+
+.info{
+    display: grid;
+    width: 1140px;
+    grid-template-columns: 182px 50% 40%;
+    margin-left: 45px;
+    margin-top: 47px;
+}
+
+.info span:first-child{
+    
+    flex: 1;
+    font-weight: lighter;
+}
+
+.info span:last-child{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-right: 200px;
+    font-weight: bolder;
+    color: grey;
+    font-size: 13px;
+}
+
+.advForms{
+    display: grid;
+    width: 1140px;
+    grid-template-columns: 182px 50% 30%;
+    margin-top: 9px;
+    row-gap: 50px;
+    border-bottom: 1px solid rgb(235, 235, 235);;
+    margin-left: 45px;
+    
+}
+
+.a-text{
+    display: grid;
+    font-size: 13px;
+    row-gap: 4px;
+}
+
+.a-text small{
+    margin-top: 18px;
+}
+
+.advForm{
+    display: grid;
+    row-gap: 3px;
+   
+}
+
+.advForm input{
+    height: 27px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    padding-left: 7px;
+}
+
+.advForm input:focus{
+    border: 1px solid #4285F4;
+}
+
+.b-text{
+    display: grid;
+    font-size: 11.3px;
+    color: grey;
+    row-gap: 9px;
+}
+
+.b-text small{
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.btns-A{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-content: end;
+    margin-bottom: 25px;
+}
+
+.btn-A{
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-weight: bolder;
+    color: white;
+    background: #4285F4;
+    padding: 8px 12px;
+    font-size: 11px;
+    outline: none;
+}
+
+.btn-A:hover{
+    background: #4080e7;
+    border: 1px solid black;
+    
+}
+
+.adv-links{
+    border-top: 1px solid #ddd;
+    display: flex;
+    width: 100%;
+}
+
+.adv-link{
+    padding-left: 22px;
+}
+
+@media (max-width: 1140px){
+    .info{
+        width: 100%;
+    }
+
+    .advForms{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 1000px){
+    .info span:last-child{
+        display: none;
+    }
+    
+    .b-text small{
+        display: none;
+    }
+}

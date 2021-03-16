@@ -28,7 +28,6 @@
     border-radius: 25px;
     width: 510px;
     margin-top: 1px;
-    
 }
 
 #I-text{
@@ -79,13 +78,14 @@
     color: #4285F4; 
     margin-right: 4px;
 }
+
 .material-icons.searchBlue:hover{
     cursor: pointer;
 }
 
 @media (max-width: 600px) {
     .I-searchBar{
-        width: 95%;
+        width: 93%;
     }
 }
 
